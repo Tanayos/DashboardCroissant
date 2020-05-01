@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 
 const Croissant = () => {
     const [countCroissant, setCountCroissant] = useState({
-        participant: ["Mohamed M", "Mohamed Z", "Mohammed B", "Barathan", "Charles H"],
+        participant: ["Titi M", "Toto Z", "Titi B", "Toto A", "Titi H"],
         days: ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'],
     });
     const [count, setCount] = useState(0);
